@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="container">
+
+
+  <h1>{{ page.title }}</h1>
+  <hr class="star-primary">
+  <img src="/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+  <p>{{ page.description }}</p>
+  <ul class="list-inline item-details">
+    <li>Client:
+      <strong><a href="{{ page.client-url }}">{{ page.client }}</a>
+                            </strong>
+    </li>
+    <li>Date:
+      <strong>{{ page.project-date }}
+                            </strong>
+    </li>
+    <li>Service:
+      <strong>{{ page.category }}
+                            </strong>
+    </li>
+  </ul>
+  {{ content }}
+
+
+</div>
