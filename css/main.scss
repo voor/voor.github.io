@@ -1,0 +1,15 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+// Application specific variables
+@import "variables";
+
+// Bootstrap from node_modules folder
+@import "bootstrap";
+
+// Overrides default Bootstrap behavior with custom coloring.
+@import "flatly";
+
+@import "freelancer";

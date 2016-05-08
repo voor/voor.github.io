@@ -6,12 +6,6 @@ description: "Write an awesome description for your new site here. You can edit 
 skills: "Software Architect - Full Stack Developer - Techie"
 meta_author: Robert Van Voorhees
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
@@ -22,12 +16,12 @@ contact: disqus
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: voorxyz
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 303F9F #303F9F
-  primary-rgb: "63,81,181" # rgb(63, 81, 181)
-  secondary: 607D8B #607D8B
-  secondary-dark: 455A64 #455A64
+gems:
+  - jekyll-bootstrap-sass
+
+# Change to SASS
+sass:
+    style: compressed
 
 # Footer settings
 footer:
