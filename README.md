@@ -1,4 +1,4 @@
-# Voor.xyz
+# [Voor.xyz](http://www.voor.xyz)
 
 All content within `_posts/` is copyright Robert Van Voorhees. Do not reuse any part without written permission.
 
