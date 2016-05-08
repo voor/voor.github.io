@@ -74,9 +74,9 @@ header {
   text-align: center;
   color: #fff;
   background: $site-color-primary;
-  .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+  &.container {
+    padding-top: 200px;
+    padding-bottom: 100px;
   }
   img {
     display: block;
@@ -97,7 +97,7 @@ header {
   }
 }
 @media(min-width:768px) {
-  .container {
+  .top-container {
     padding-top: 200px;
     padding-bottom: 100px;
   }
@@ -108,7 +108,7 @@ header {
     font-size: 1.75em;
   }
   .navbar-fixed-top {
-    padding: 10px 0;
+    padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
