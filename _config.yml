@@ -17,7 +17,7 @@ contact: disqus
 disqus_shortname: voorxyz
 
 gems:
-  - jekyll-bootstrap-sass
+  - jekyll-sass-converter
 
 # Change to SASS
 sass:
